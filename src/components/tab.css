@@ -1,0 +1,43 @@
+.img-div img {
+  width: 180px;
+  height: 200px;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.item-inside {
+  box-shadow: 1px 1px 1px 1px;
+  border-radius: 10px;
+  transition: 400ms ease-out;
+  width: 550px;
+  margin: 20px 0px 0px 10px;
+}
+.item-inside:hover {
+  transform: scale(1.05);
+  transition: 400ms;
+}
+.item1 {
+  display: flex;
+}
+.main-title {
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.menu-price-book h2 {
+  margin-left: 10px;
+  color: rgb(0, 190, 165);
+  font-size: 25px;
+}
+
+.menu-price-book button {
+  background-color: rgb(0, 190, 165);
+  border: none;
+  color: #fff;
+}
+.menu-price-book button:hover {
+  border: 1px solid rgb(0, 190, 165);
+  background-color: #fff;
+  color: rgb(0, 190, 165);
+}
+.outp {
+}
